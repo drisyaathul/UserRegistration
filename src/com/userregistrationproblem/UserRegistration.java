@@ -35,5 +35,11 @@ public class UserRegistration {
             System.out.println("Valid Password1");
         else
             System.out.println("Invalid Password1");
+
+        boolean result6 = Pattern.matches("[A-Za-z]{8,}","PassWord");
+        if (result6)
+            System.out.println("Valid Password2");
+        else
+            System.out.println("Invalid Password2");
     }
 }
