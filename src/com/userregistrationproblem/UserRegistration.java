@@ -17,5 +17,11 @@ public class UserRegistration {
             System.out.println("Valid LastName");
         else
             System.out.println("Invalid LastName");
+
+        boolean result3 = Pattern.matches("^[a-z.@]{3,}","abc.xyz@bl.co.in");
+        if (result3)
+            System.out.println("Valid Email-Id");
+        else
+            System.out.println("Invalid Email-Id");
     }
 }
