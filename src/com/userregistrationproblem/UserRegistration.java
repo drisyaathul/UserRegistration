@@ -29,5 +29,11 @@ public class UserRegistration {
             System.out.println("Valid Mobile Format");
         else
             System.out.println("Invalid Mobile Format");
+
+        boolean result5 = Pattern.matches("[a-z]{8,}","password");
+        if (result5)
+            System.out.println("Valid Password1");
+        else
+            System.out.println("Invalid Password1");
     }
 }
