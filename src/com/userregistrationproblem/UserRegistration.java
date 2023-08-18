@@ -23,5 +23,11 @@ public class UserRegistration {
             System.out.println("Valid Email-Id");
         else
             System.out.println("Invalid Email-Id");
+
+        boolean result4 = Pattern.matches("^[0-9]{2}\s[0-9]{10}","91 9998899893");
+        if (result4)
+            System.out.println("Valid Mobile Format");
+        else
+            System.out.println("Invalid Mobile Format");
     }
 }
